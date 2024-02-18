@@ -49,7 +49,7 @@ export default function Page() {
 			</section>
 
 			<section className="section rounded-t-xl shadow !border-none bg-accent">
-				<div className="max-w-[1200px] mx-auto grid items-center gap-6 lg:gap-y-12 lg:grid-cols-2 lg:gap-12">
+				<div className="max-w-[1200px] text-center lg:text-left mx-auto grid items-center gap-6 lg:gap-y-12 lg:grid-cols-2 lg:gap-12">
 					<div className="mx-auto flex w-full items-center justify-around p-4 sm:p-8">
 						<Image
 							alt="Image"
@@ -64,7 +64,7 @@ export default function Page() {
 							Modern Aesthetics, Timeless Elegance
 						</h2>
 						<p
-							className="md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-muted-foreground max-w-[55ch]
+							className="md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-muted-foreground max-w-[55ch] mx-auto lg:mx-0
                             "
 						>
 							The perfect fusion of contemporary design and enduring
@@ -79,7 +79,7 @@ export default function Page() {
 							Seamless Integration of Nature and Architecture
 						</h2>
 						<p
-							className="md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-muted-foreground  max-w-[55ch]
+							className="md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-muted-foreground  max-w-[55ch] mx-auto lg:mx-0
                             "
 						>
 							Embracing the harmony between the built environment and the
@@ -99,6 +99,23 @@ export default function Page() {
 							width="550"
 						/>
 					</div>
+					<div className="grid gap-4 md:gap-2 lg:hidden">
+						<h2 className="text-2xl font-bold">
+							Captivating Spaces, Inspiring Experiences
+						</h2>
+						<p
+							className="md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-muted-foreground  max-w-[55ch] mx-auto lg:mx-0
+                            "
+						>
+							Crafting environments that evoke emotion and spark creativity.
+							Embracing the harmony between the built environment and the
+							natural world. Embracing the harmony between the built environment
+							and the natural world. Creating spaces that resonate with the
+							spirit of the surrounding landscape. Integrating sustainable
+							materials to reduce our carbon footprint. Redefining architectural
+							boundaries with innovative design solutions.
+						</p>
+					</div>
 					<div className="mx-auto flex w-full items-center justify-around p-4 sm:p-8">
 						<Image
 							alt="Image"
@@ -113,7 +130,7 @@ export default function Page() {
 							Captivating Spaces, Inspiring Experiences
 						</h2>
 						<p
-							className="md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-muted-foreground  max-w-[55ch]
+							className="md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-muted-foreground  max-w-[55ch] mx-auto lg:mx-0
                             "
 						>
 							Crafting environments that evoke emotion and spark creativity.
