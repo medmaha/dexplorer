@@ -8,7 +8,7 @@ import Footer from "@/components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
-	title: "Kubay Architech",
+	title: "Kubay Architect",
 	description:
 		"Architecture Re-imagined, We build your dream home in the Gambia",
 	keywords: [
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 		"Products",
 		"Architecture Services",
 		"Projects Architecture",
-		"Kubay Architech",
+		"Kubay Architect",
 		"Building",
 		"Contracts",
 		"The Gambia",

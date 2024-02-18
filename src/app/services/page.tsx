@@ -5,7 +5,7 @@ import Link from "next/link";
 
 import { Metadata } from "next";
 export const metadata: Metadata = {
-	title: "Our Services | Kubay Architech",
+	title: "Our Services | Kubay Architect",
 	description:
 		"Architecture Re-imagined, We build your dream home in the Gambia",
 	keywords: [
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 		"Contact",
 		"Products",
 		"Architecture Services",
-		"Kubay Architech",
+		"Kubay Architect",
 		"Building",
 		"Contracts",
 		"The Gambia",

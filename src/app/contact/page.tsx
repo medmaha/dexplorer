@@ -6,7 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 import { Metadata } from "next";
 export const metadata: Metadata = {
-	title: "Contact Us | Kubay Architech",
+	title: "Contact Us | Kubay Architect",
 	description:
 		"Architecture Re-imagined, We build your dream home in the Gambia",
 	keywords: [
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 		"Quality",
 		"Contact Us",
 		"Contact Architecture",
-		"Kubay Architech",
+		"Kubay Architect",
 		"Building",
 		"Contracts",
 		"The Gambia",

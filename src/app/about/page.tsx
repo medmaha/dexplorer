@@ -6,14 +6,14 @@ import { Textarea } from "@/components/ui/textarea";
 
 import { Metadata } from "next";
 export const metadata: Metadata = {
-	title: "About Us | Kubay Architech",
+	title: "About Us | Kubay Architect",
 	description:
 		"Architecture Re-imagined, We build your dream home in the Gambia",
 	keywords: [
 		"Good",
 		"Quality",
 		"About Architecture",
-		"Kubay Architech",
+		"Kubay Architect",
 		"Building",
 		"Contracts",
 		"The Gambia",
@@ -29,7 +29,7 @@ export default function Component() {
 					<span className="text-muted-foreground pr-12 inline-block">
 						About
 					</span>
-					Kubay Architech
+					Kubay Architect
 				</h1>
 				<p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed pb-8 border-b w-max max-w-[60ch] mx-auto px-4">
 					We are a team of passionate architects dedicated to creating
