@@ -61,7 +61,7 @@ type NavLinksProps = {
 
 function NavLinks(props: NavLinksProps) {
 	return (
-		<div className="min-w-[200px] flex-col space-y-6 md:space-y-0 p-4 md:p-0 flex md:flex-row md:items-center md:gap-4 lg:gap-6">
+		<div className="flex-col space-y-6 md:space-y-0 p-4 md:p-0 flex md:flex-row md:items-center md:gap-4 lg:gap-6">
 			<NavLink href="/">
 				<span>Home</span>
 				<Home className="md:hidden" />

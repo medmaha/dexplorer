@@ -4,6 +4,24 @@ import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
+import { Metadata } from "next";
+export const metadata: Metadata = {
+	title: "Contact Us | Kubay Architech",
+	description:
+		"Architecture Re-imagined, We build your dream home in the Gambia",
+	keywords: [
+		"Good",
+		"Quality",
+		"Contact Us",
+		"Contact Architecture",
+		"Kubay Architech",
+		"Building",
+		"Contracts",
+		"The Gambia",
+		"Africa",
+	],
+};
+
 export default function Page() {
 	return (
 		<>

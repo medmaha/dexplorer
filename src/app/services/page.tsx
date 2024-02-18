@@ -3,6 +3,26 @@ import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 import Link from "next/link";
 
+import { Metadata } from "next";
+export const metadata: Metadata = {
+	title: "Our Services | Kubay Architech",
+	description:
+		"Architecture Re-imagined, We build your dream home in the Gambia",
+	keywords: [
+		"Good",
+		"Quality",
+		"Our Services",
+		"Contact",
+		"Products",
+		"Architecture Services",
+		"Kubay Architech",
+		"Building",
+		"Contracts",
+		"The Gambia",
+		"Africa",
+	],
+};
+
 export default function Page() {
 	return (
 		<>

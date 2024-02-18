@@ -1,14 +1,25 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/OsZcbpAhidD
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
 import { CardContent, CardFooter, Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
 import Image from "next/image";
 import { Textarea } from "@/components/ui/textarea";
+
+import { Metadata } from "next";
+export const metadata: Metadata = {
+	title: "About Us | Kubay Architech",
+	description:
+		"Architecture Re-imagined, We build your dream home in the Gambia",
+	keywords: [
+		"Good",
+		"Quality",
+		"About Architecture",
+		"Kubay Architech",
+		"Building",
+		"Contracts",
+		"The Gambia",
+		"Africa",
+	],
+};
 
 export default function Component() {
 	return (

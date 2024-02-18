@@ -22,7 +22,7 @@ export default function SideNav(props: Props) {
 					<Menu />
 				</Button>
 			</DropdownMenuTrigger>
-			<DropdownMenuContent align="end" className="max-w-[500px] w-full">
+			<DropdownMenuContent align="end" className="">
 				{props.children}
 			</DropdownMenuContent>
 		</DropdownMenu>
