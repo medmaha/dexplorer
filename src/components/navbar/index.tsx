@@ -1,8 +1,16 @@
 import Link from "next/link";
-import React from "react";
+import React, { ReactNode } from "react";
 import NavLink from "./nav-links";
 import Theme from "./theme";
 import { cookies } from "next/headers";
+import SideNav from "./sidenav";
+import {
+	Building2,
+	FileQuestion,
+	Home,
+	MailQuestion,
+	Workflow,
+} from "lucide-react";
 
 type Props = {
 	theme: "light" | "dark";
@@ -25,18 +33,56 @@ export default function Navbar({ theme }: Props) {
 					<span className="pt-1">Kubay</span>
 				</Link>
 
-				<div className="flex items-center ml-auto gap-2 lg:gap-6">
-					<NavLink href="/">Home</NavLink>
-					<NavLink href="/projects">Projects</NavLink>
-					<NavLink href="/services">Services</NavLink>
-					<NavLink href="/contact">Contact</NavLink>
-					<NavLink href="/about">About Us</NavLink>
+				<div className="hidden md:block ml-auto">
+					<NavLinks>
+						<Theme theme={theme} toggleTheme={toggleTheme} />
+					</NavLinks>
 				</div>
-				<div className="ml-auto">
+
+				<div className="ml-auto flex items-center gap-6">
 					<Theme theme={theme} toggleTheme={toggleTheme} />
+
+					<div className="md:hidden">
+						<SideNav theme={theme} toggleTheme={toggleTheme}>
+							<NavLinks>
+								<Theme theme={theme} toggleTheme={toggleTheme} />
+							</NavLinks>
+						</SideNav>
+					</div>
 				</div>
 			</nav>
 		</header>
+	);
+}
+
+type NavLinksProps = {
+	children: ReactNode;
+};
+
+function NavLinks(props: NavLinksProps) {
+	return (
+		<div className="min-w-[200px] flex-col space-y-6 md:space-y-0 p-4 md:p-0 flex md:flex-row md:items-center md:gap-4 lg:gap-6">
+			<NavLink href="/">
+				<span>Home</span>
+				<Home className="md:hidden" />
+			</NavLink>
+			<NavLink href="/projects">
+				<span>Projects</span>
+				<Workflow className="md:hidden" />
+			</NavLink>
+			<NavLink href="/services">
+				<span>Services</span>
+				<Building2 className="md:hidden" />
+			</NavLink>
+			<NavLink href="/contact">
+				<span>Contact</span>
+				<MailQuestion className="md:hidden" />
+			</NavLink>
+			<NavLink href="/about">
+				<span>About Us</span>
+				<FileQuestion className="md:hidden" />
+			</NavLink>
+		</div>
 	);
 }
 
