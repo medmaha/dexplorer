@@ -23,8 +23,8 @@ export default function Navbar({ theme }: Props) {
 	}
 
 	return (
-		<header className="sticky top-0 shadow bg-transparent backdrop:bg-white/10 backdrop-blur-[5px]">
-			<nav className="flex justify-center items-center min-h-[60px] gap-4 sm:gap-6 container">
+		<header className="sticky top-0 shadow bg-transparent backdrop:bg-card/10 backdrop-blur-[5px]">
+			<nav className="flex justify-center items-center min-h-[60px] gap-4 sm:gap-6 container ">
 				<Link
 					className="flex items-center font-extrabold italic text-primary"
 					href="/"
@@ -34,19 +34,15 @@ export default function Navbar({ theme }: Props) {
 				</Link>
 
 				<div className="hidden md:block ml-auto">
-					<NavLinks>
-						<Theme theme={theme} toggleTheme={toggleTheme} />
-					</NavLinks>
+					<NavLinks />
 				</div>
 
 				<div className="ml-auto flex items-center gap-6">
 					<Theme theme={theme} toggleTheme={toggleTheme} />
 
 					<div className="md:hidden">
-						<SideNav theme={theme} toggleTheme={toggleTheme}>
-							<NavLinks>
-								<Theme theme={theme} toggleTheme={toggleTheme} />
-							</NavLinks>
+						<SideNav>
+							<NavLinks />
 						</SideNav>
 					</div>
 				</div>
@@ -55,11 +51,7 @@ export default function Navbar({ theme }: Props) {
 	);
 }
 
-type NavLinksProps = {
-	children: ReactNode;
-};
-
-function NavLinks(props: NavLinksProps) {
+function NavLinks() {
 	return (
 		<div className="flex-col space-y-6 md:space-y-0 p-4 md:p-0 flex md:flex-row md:items-center md:gap-4 lg:gap-6">
 			<NavLink href="/">
