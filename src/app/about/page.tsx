@@ -31,7 +31,7 @@ export default function Component() {
 					</span>
 					Kubay Architect
 				</h1>
-				<p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed pb-8 border-b w-max max-w-[60ch] mx-auto px-4">
+				<p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed pb-8 border-b w-full max-w-[60ch] mx-auto px-4">
 					We are a team of passionate architects dedicated to creating
 					innovative and inspiring spaces. Our design philosophy combines modern
 					aesthetics with a focus on functionality, ensuring that each project

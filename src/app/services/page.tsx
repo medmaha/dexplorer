@@ -30,7 +30,7 @@ export default function Page() {
 				<h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl pb-6">
 					Our Services
 				</h1>
-				<p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed pb-8 border-b w-max mx-auto px-4">
+				<p className="text-muted-foreground w-full md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed pb-8 border-b mx-auto px-4">
 					Providing exceptional architectural services for your next project.
 				</p>
 			</div>

@@ -7,10 +7,10 @@ export default function Page() {
 	return (
 		<>
 			<section className="section">
-				<h1 className="text-center text-3xl font-bold tracking-tighter sm:text-5xl md:text-6xl/none">
+				<h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl pb-6 md:pt-0 pt-16">
 					Architecture Re-imagined
 				</h1>
-				<p className="mx-auto max-w-[600px] p-1 text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+				<p className="mx-auto w-full max-w-[600px] p-1 text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
 					We blend form and function to create spaces that inspire.
 				</p>
 				<div className="grid items-center pt-16 lg:pt-24 text-center">
