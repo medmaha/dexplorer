@@ -48,7 +48,7 @@ function MenuContent(props: MenuContentProps) {
 			onClick={() => props.toggleOpen(false)}
 		>
 			<div
-				className="p-6 bg-card border max-w-[300px] h-max mr-8"
+				className="p-6 bg-card border-2 shadow-md max-w-[300px] h-max mr-8"
 				onClick={(ev) => {
 					ev.stopPropagation();
 					ev.preventDefault();
